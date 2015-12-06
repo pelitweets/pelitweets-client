@@ -4,7 +4,8 @@
   "description": "A pelitweets api client for NodeJS applications",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "standard",
+    "test": "npm run lint"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/pelitweets/pelitweets-client/issues"
   },
-  "homepage": "https://github.com/pelitweets/pelitweets-client#readme"
+  "homepage": "https://github.com/pelitweets/pelitweets-client#readme",
+  "devDependencies": {
+    "standard": "^5.4.1",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.2.2"
+  }
 }
