@@ -1,0 +1,19 @@
+{
+  "name": "pelitweets-client",
+  "version": "0.0.1",
+  "description": "A pelitweets api client for NodeJS applications",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pelitweets/pelitweets-client.git"
+  },
+  "author": "Carlos Azaustre <cazaustre@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pelitweets/pelitweets-client/issues"
+  },
+  "homepage": "https://github.com/pelitweets/pelitweets-client#readme"
+}
