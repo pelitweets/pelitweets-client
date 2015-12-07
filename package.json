@@ -3,9 +3,13 @@
   "version": "0.0.1",
   "description": "A pelitweets api client for NodeJS applications",
   "main": "index.js",
+  "watch": {
+    "test": "{lib,test}/*.js"
+  },
   "scripts": {
     "lint": "standard",
-    "test": "npm run lint && tape test/*.test.js | tap-spec"
+    "test": "npm run lint && tape test/*.test.js | tap-spec",
+    "test:watch": "watch 'npm test'"
   },
   "repository": {
     "type": "git",
@@ -18,8 +22,13 @@
   },
   "homepage": "https://github.com/pelitweets/pelitweets-client#readme",
   "devDependencies": {
+    "nock": "^3.4.0",
     "standard": "^5.4.1",
     "tap-spec": "^4.1.1",
-    "tape": "^4.2.2"
+    "tape": "^4.2.2",
+    "watch": "^0.16.0"
+  },
+  "dependencies": {
+    "client-request": "^1.0.1"
   }
 }
