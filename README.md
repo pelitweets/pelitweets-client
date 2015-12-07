@@ -1,5 +1,6 @@
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
 # pelitweets-client
+[![Build Status](https://travis-ci.org/pelitweets/pelitweets-client.svg)](https://travis-ci.org/pelitweets/pelitweets-client)
 
 A pelitweets api client for NodeJS applications
 

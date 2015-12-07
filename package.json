@@ -1,6 +1,6 @@
 {
   "name": "pelitweets-client",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "A pelitweets api client for NodeJS applications",
   "main": "index.js",
   "watch": {
